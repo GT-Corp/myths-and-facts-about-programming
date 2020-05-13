@@ -1,7 +1,7 @@
 
 ## Guessing Game - Full Scope Developer
 
-If you are wonder what would be a perfect project to practice your programming skills. You are on the right place!
+If you are wondering what would be a perfect project to practice your programming skills. You are on the right place!
 
 It's a simple number guessing game. We start with a console app and migrate to web app with lots of features.
 
