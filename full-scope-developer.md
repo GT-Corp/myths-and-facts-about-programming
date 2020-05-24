@@ -1,18 +1,18 @@
 
 ## Guessing Game - Full Scope Developer
 
-If you are wondering what would be a perfect project to practice your programming skills. You are on the right place!
+If you are wondering what would be a perfect project to practice your programming skills. You are in the right place!
 
-It's a simple number guessing game. We start with a console app and migrate to web app with lots of features.
+It's a simple number guessing game. We start with a console app and migrate to a web app with lots of features.
 
 ## Steps
 
 
 #### Console App:
 
-- Read a number N from console between a range (MIN, MAX). Your code should then generate a random number CN between the same range(MIN, MAX) and compare if the computer generated random number CN and the user entered number N matches.
+- Read a number N from the console between a range (MIN, MAX). Your code should then generate a random number CN between the same range(MIN, MAX) and compare if the computer-generated random number CN and the user entered number N matches.
 
-    If it matches, user wins. If it doesn't match, computer wins.
+    If it matches, the user wins. If it doesn't match, the computer wins.
 
 #### (Optional) Desktop app:
 
@@ -24,13 +24,13 @@ It's a simple number guessing game. We start with a console app and migrate to w
     User Guess   [ Textbox  ]
 ```
 
-Also provide a button with label "Play" that generates the random number and displays a message in Label if user won.
+Also provide a button with label "Play" that generates the random number and displays a message in Label if the user won.
 
 ```
     [ Play  ]
 ```
 
-- Save the win/loss counts and winning/losing number in a text file 'stat.csv'. Display the average win/loss on UI when user closes the app.
+- Save the win/loss counts and winning/losing number in a text file 'stat.csv'. Display the average win/loss on UI when the user closes the app.
 
 ```
     eg:
@@ -41,7 +41,7 @@ Also provide a button with label "Play" that generates the random number and dis
 ```
 
 #### Two player:
-- Update the GUI or Console application to allow two user to play with computer. The both of the user can enter their guess and click Play. The user that made the correct guess will win
+- Update the GUI or Console application to allow two users to play with the computer. Both of the users can enter their guess and click Play. The user that made the correct guess will win
 
 ```
     GUI mockup:
@@ -54,39 +54,39 @@ Also provide a button with label "Play" that generates the random number and dis
 ```
 
 #### (Optional) Multi-Player Game - over socket connection:
-- Update the GUI application to allow a number of users to play simultaneously. All the user will have the copy of application and can join the Game by running the application on their computer. The first user to start the game can act as Server.
+- Update the GUI application to allow several users to play simultaneously. All the users will have a copy of the application and can join the Game by running the application on their computer. The first user to start the game can act as a Server.
 
 #### Web Application:
 
-- Create a web application to play the same game in the browser. Reuse the previous code on backend
+- Create a web application to play the same game in the browser. Reuse the previous code on the backend
 
-- Support single player mode (play with the computer). 
+- Support single-player mode (play with the computer). 
 
-- Add a sign-up page to register users. Update logic to allow only the registered/logged in users to play. Use recaptcha to prevent robot making requests.
+- Add a sign-up page to register users. Update logic to allow only the registered/logged-in users to play. Use ReCaptcha to prevent robot making requests.
 
-- Block user from playing more than 1 hour. Lock them for 2 hours.
+- Block users from playing more than 1 hour. Lock them for 2 hours.
 
-- Multi-player: list online users and provide ability to request/accept to play with the user. Use websocket to listen for updates in realtime.
+- Multi-player: list online users and provide the ability to request/accept to play with the user. Use WebSocket to listen for updates in realtime.
 
-- Store the win/loss statistics into db. 
+- Store the win/loss statistics into DB. 
 
--  Generate a CSV report with stats about the winner, numbers etc that you can download it from web interface. 
+-  Generate a CSV report with stats about the winner, numbers, etc that you can download it from the web interface. 
 
--  Schedule the report to run every day and deliver to your email address.
+-  Schedule the report to run every day and deliver it to your email address.
 
--  Setup a background job that sends an account deactivation email if user is not logged-in in last 20 days
+-  Setup a background job that sends an account deactivation email if the user is not logged-in in last 20 days
 
--  Setup a background job to deactivate user if user is not logged-in in last 30 days
+-  Setup a background job to deactivate user if the user is not logged-in in the last 30 days
 
--  Setup a public web api to expose information about the winners
+-  Setup a public web API to expose information about the winners
 
 -  Use caching to read user profile from the cache instead of reading from DB on every request
 
--  Setup a dockerfile script to run your app in docker 
+-  Setup a Dockerfile script to run your app in docker 
 
--  Setup static code analysis with local sonarqube instance. You can use docker to run sonarqube. Take care of sonarqube warnings.
+-  Setup static code analysis with local SonarQube instance. You can use docker to run SonarQube. Take care of SonarQube warnings.
 
--  Deploy your app in a cloud environment (eg herouku, aws, azure)
+-  Deploy your app in a cloud environment (eg Heroku, AWS, Azure)
 
 -  ...
 
@@ -95,5 +95,6 @@ Also provide a button with label "Play" that generates the random number and dis
 
 - Focus on readability, reusability throughout the development.
 - Try to make your app modular
-- Use build system
+- Use the build system
 - Use git 
+
