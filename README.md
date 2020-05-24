@@ -113,10 +113,10 @@ if(age > 18 && balance > 50)
 - It's better to start the web development without the frameworks so that you understand how those frameworks are solving the problems of not using those frameworks
 - You don't need to learn all of these, one would be enough. If you started learning web development without using frameworks, switching between frameworks would be easier.
 
-### I know X1 framework. But the job vacancy says mentions X2(the alternative of X1). I should not apply for this job.
+### I know X1 framework/library/tool. But the job vacancy says mentions X2(the alternative of X1). I should not apply for this job.
 - False
-- Test yourself if you know X1 framework/library how long you will take to learn X2.
-- As long as you know the abstract concepts and have worked on at least one pet/professional project on your own there's a high chance that you can learn another framework quickly. All these frameworks are trying to solve a similar project but slightly different ways.
+- Test yourself if you know X1 framework/library/tool how long you will take to learn X2.
+- As long as you know the abstract concepts and have worked on at least one pet/professional project on your own there's a high chance that you can learn another framework/library/tool quickly. They all are trying to solve a similar project but slightly different ways.
 - Also look for 'preferred' vs 'required' skills on job vacancies.
 
 
