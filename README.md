@@ -37,7 +37,7 @@ A collection of common myths and facts (opinionated) about computer programming 
 - There will be certain things you can learn easily. But a college degree will help to broaden your perspective and learn things quickly.     
 
 
-### Is monotonous  ... like working in the assembly line at a factory
+### Programming is monotonous. Its like working in the assembly line at a factory
 - False
 - On certain days or working in the same role for a long time, you may get a feel of your job being monotonous.
 - But it's not like working in the assembly line. It requires lots of thinking and analysis.
@@ -67,11 +67,11 @@ if(a > 18 && b > 50)
 
 
 ```
-- It depends
+- False
 
- - With compiled languages, no. With interpreted languages, possibly but the difference would be negligible.
+- With compiled languages, no. With interpreted languages, possibly but the difference would be negligible.
 
- - Always focus on readability. Compare the above code with the following:
+- Always focus on readability. Compare the above code with the following:
 
 
 ```
@@ -112,7 +112,13 @@ if(age > 18 && balance > 50)
 - False
 - It's better to start the web development without the frameworks so that you understand how those frameworks are solving the problems of not using those frameworks
 - You don't need to learn all of these, one would be enough. If you started learning web development without using frameworks, switching between frameworks would be easier.
-    
+
+### I know X1 framework. But the job vacancy says mentions X2(the alternative of X1). I should not apply for this job.
+- False
+- Test yourself if you know X1 framework/library how long you will take to learn X2.
+- As long as you know the abstract concepts and have worked on at least one pet/professional project on your own there's a high chance that you can learn another framework quickly. All these frameworks are trying to solve a similar project but slightly different ways.
+- Also look for 'preferred' vs 'required' skills on job vacancies.
+
 
 ### Everyone on social media hates language/framework X. X must be bad.
 - False
