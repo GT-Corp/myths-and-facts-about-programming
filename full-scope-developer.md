@@ -66,7 +66,7 @@ Also provide a button with label "Play" that generates the random number and dis
 
 - Block users from playing more than 1 hour. Lock them for 2 hours.
 
-- Multi-player: list online users and provide the ability to request/accept to play with the user. Use WebSocket to listen for updates in realtime.
+- (Optional) Multi-player: list online users and provide the ability to request/accept to play with the user. Use WebSocket to listen for updates in realtime.
 
 - Store the win/loss statistics into DB. 
 
