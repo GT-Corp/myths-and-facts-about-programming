@@ -120,5 +120,5 @@ Req: Swing: JPanel, JWindow, JButton, JTextFiel etc
 
 - Focus on readability, reusability throughout the development.
 - Try to make your app modular
-- Use the build system
+- Use the build system eg: Maven, Gradle
 - Use git 
