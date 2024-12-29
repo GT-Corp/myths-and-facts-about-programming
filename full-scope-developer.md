@@ -83,9 +83,11 @@ Req: Swing: JPanel, JWindow, JButton, JTextFiel etc
 
 - Block users from playing more than 1 hour. Lock them for 2 hours.
 
-- (Optional) Multi-player: list online users and provide the ability to request/accept to play with the user. Use WebSocket to listen for updates in realtime.
+- (Optional) Two-player: list online users and provide the ability to request/accept to play with the user. Use WebSocket to listen for updates in realtime.
 
-- Store the win/loss statistics into DB. 
+- (Optional) Make it multi-player
+
+- Store the win/loss statistics into DB.
 
 -  Generate a CSV report with stats about the winner, numbers, etc that you can download it from the web interface. 
 
@@ -107,13 +109,15 @@ Req: Swing: JPanel, JWindow, JButton, JTextFiel etc
     
     Req: Spring's `@Cacheable`
 
--  Setup a Dockerfile script to run your app in docker 
+-  Setup a Dockerfile script to run your app in docker. Or use buildpack plugin
 
 -  Setup static code analysis with local SonarQube instance. You can use docker to run SonarQube. Take care of SonarQube warnings.
 
--  Deploy your app in a cloud environment (eg Heroku, AWS, Azure)
+-  Deploy your app in a cloud environment (eg Heroku, AWS, Azure, Oracle). Use free tier resources. Oracle has "always-free" tier.
 
--  ...
+- Write e2e test
+
+- ...
 
 
 ### Note: 
@@ -121,4 +125,5 @@ Req: Swing: JPanel, JWindow, JButton, JTextFiel etc
 - Focus on readability, reusability throughout the development.
 - Try to make your app modular
 - Use the build system eg: Maven, Gradle
-- Use git 
+- Use git
+- Writ tests(unit, integration) after each step 
