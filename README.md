@@ -1,5 +1,4 @@
-## What's this?
-A collection of common myths and facts (opinionated) about computer programming that I wish I knew in my early career.
+## Common myths and facts about computer programming
 
 ## How to contribute?
 - Submit a pull request with new Q/A and updates
